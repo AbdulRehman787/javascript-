@@ -549,9 +549,232 @@
 // sum(30,80)
 // sum(20,90)
 
-function sum (a,b){
-  return totat =a+b;
+// function sum (a,b){
+//   return totat =a+b;
 
-}
-var funexp = sum(5,4)
-console.log("The sum of number is",funexp)
+// }
+// var funexp = sum(5,4)
+// console.log("The sum of number is",funexp)
+
+
+// var dayName= ["Sun","Mon","Tues","Weds","Thurs","Fri","Sat"];
+// var time = new Date().getDay();
+// if(time === 6 || time === 0){
+//     alert("Its Fun day");
+// }
+// else{
+//     alert("Its "+ dayName[time] + "day");
+// }
+
+
+// var day = ["Sun","MOn","Tues","Wed","Thurs","Fri","Sat"]
+// var time= new Date().getDay();
+// if(time===0 || time===6){
+//   console.log("Its fun day")
+// }else{
+//   console.log("Its Working day")
+// }
+
+// var time = new Date().getDate();
+// if(time<=15){
+//   console.log("First Fifteen  days of Month")
+// }else{
+//   console.log("last Fifteen  days of Month")
+// }
+ 
+
+// var currentDate = new Date();
+// var milliSec=currentDate.getTime();
+// var mintes =  (milliSec/(1000*60));
+// document.write("<div>","Current Date : "+currentDate+ "</div>");
+// document.write("<div>","Elapsed milliseconds from 01 January 1970 : "+ milliSec+ "</div>");
+// document.write("<div>","Elapsed minutes from 01 January 1970 : "+ mintes+ "</div>");
+
+// var date=new Date();
+// var millisec = date.getTime();
+// var mintes = (millisec /(1000*60))
+
+// document.write("<div>","Current Date : "+date+ "</div>");
+// document.write("<div>","Elapsed milliseconds from 01 January 1970 : "+ millisec+ "</div>");
+// document.write("<div>","Elapsed minutes from 01 January 1970 : "+ mintes+ "</div>");
+
+// var time= new Date ().getTime()
+// if(time>=12){
+//   console.log("Its P.M")
+// }else{
+//   onsole.log("Its A.M")
+// }
+
+// var laterDate = new Date("21 janurary  2022");
+// document.write("Late Date is ",laterDate)
+
+// var laterDate = new Date("31 December 2020");
+// document.write("<div>","Later Date : "+laterDate+ "</div>");
+
+// var ramadan = new Date("30 April 2022").getTime()
+// var dayPass = (ramadan / (1000 * 60 *60 *24)/365)-new Date().getDay();
+// dayPass= Math.floor(dayPass);
+// document.write("<div>"+dayPass+" days have passed since 1st Ramadan , 2021"+ "</div>");
+
+
+// var ramadan = new Date("2 April 2022").getTime();
+// var dayPass = (ramadan /(1000 * 60 * 60 *24)/365)-new Date().getDay();
+// dayPass=Math.floor(dayPass);
+// document.write("<div>"+dayPass+" days have passed since 1st Ramadan , 2022"+ "</div>");
+
+
+// var current = new Date();
+// var currentDate2021 = current.getTime()/1000;
+// var beginYear2021=new Date("01 January 2021").getTime()/1000;
+// document.write("<div>","On reference date "+current+ "</div>");
+// document.write("<div>"+ (currentDate2021 - beginYear2021) + " seconds passed since the begining of 2021"+"</div>");
+
+//var date = new Date();
+// var date1 = date.getSeconds();
+// var year = new Date("2015");
+// var year1=year.getSeconds();
+// var final = date1-year1;
+
+// console.log(final)
+
+// function abc() {
+//       var now = new Date();
+//       var theHr = now.getHours();
+//       var theMin = now.getMinutes();
+//       alert("Current time: " + theHr + ":" + theMin);
+//   }
+  
+//   abc()
+  
+  
+// function sum (){
+//   var date = new Date()
+//   console.log(date)
+// }
+// sum()
+
+// function sum(){
+//   var firstName = prompt("Enter your First Name") ;lastName = prompt('Enter your Last Name')
+// var fullName = firstName + " "+ lastName;
+// console.log(" Greeting "+fullName)
+// }
+// sum()
+
+// function abc(){
+
+//   var a = +prompt("Enter a one number"); b = +prompt("Enter a two number ")
+// var final  = a +b ;
+// console.log(final)
+// }
+// abc()
+
+// function abc (){
+//  var num1 = +prompt("Enter a first  number you want calculation ")  
+//  var num2 = +prompt("Enter a second  number you want calculation ")  
+//  var operator = prompt("Enter a Operator")
+//  if(operator ==="+"){
+//    console.log(num1 + num2)
+//  } else if (operator === "-"){
+//    console.log(num1-num2)
+//  }else if (operator === "/"){
+//   console.log(num1/num2)
+// }else if (operator === "*"){
+//   console.log(num1 * num2)
+// }else if(operator ==="%"){
+//   console.log(num1 % num2)
+// }else{
+//   console.log("Enter a number ")
+// }
+// }
+// abc();
+
+// function sum(a,b){
+//   var total = a+b
+//   console.log(total)
+// }
+// sum(3,4)
+
+// function abc(a,b){
+//   return total = a+b;
+  
+// }
+// var funexp = abc(2,2)
+// console.log(funexp)
+// var result ;
+// function squ(a){
+//   a= a*a;
+//   document.write(a)
+// }
+// var num = prompt("Enter a number ")
+// squ(num)
+
+// let abc= "something";
+// console.log(abc)
+
+// var base=+prompt("Enter Base")
+// var perp=+prompt("Enter Perpendicular")
+// var hypo;
+// var res;
+// function first(){
+
+//     function inner(){
+//         hypo=((base*base)+(perp*perp))
+//     }
+//     inner()
+//      res = Math.sqrt(hypo);
+//     document.write(res);
+// }
+
+// first()
+
+
+// var first=+prompt("Enter Length ")
+// var second=+prompt("Enter Height ")
+// var res;
+// function area(a,b){
+//     res=(a*b)
+//     document.write("area or rectangle is : "+res)
+// }
+// area(first,second);
+
+// var first= +prompt("Enter a lenth")
+// var last = +prompt("Enter a height")
+// var res ;
+// function area(a,b){
+//   res = (a*b);
+//   document.write("Area of triangle is " ,res)
+// }
+// area(first , last)
+
+// function check (){
+//   var userinp = prompt("Enter a palindrome word")
+//   var check = userinp.split('').reverse('').join('');
+//   if(userinp==check){
+//     console.log("its a palindrome word")
+//   }else{
+//     console.log("Its not a palindrome word")
+//   }
+// }
+
+// check()
+
+// var user= prompt("Enter a value")
+// function sum(){
+//   user=user.toLocaleUpperCase()
+//   console.log(user)
+// }
+// sum()
+
+// function abc (a,b){
+//   final =a+b;
+//   console.log(final)
+// }
+// abc(4,5);
+// var a;
+// function sum(){
+//  var a=prompt("Enter a value check its leap year ")
+//   while(a%4==0){
+//     console.log("its leap year")
+//     a++
+//   }
+// }
